@@ -50,11 +50,14 @@ header {
 .header-container {
     display: flex;
     align-items: center;
+    height: 72px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 
@@ -67,6 +70,7 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    width: 115px;
 }
 
 .logo-part {
@@ -165,12 +169,51 @@ header {
 }
 
 /* Advantages-section */
+
+.visually-hidden { 
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    display: block;
+}
+
+
+.advantages {
+    padding: 120px 0;
+}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+
+.advantages-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-grow: calc((100% - 72px) / 4);
+    max-width: 264px;
+    flex-wrap: wrap;
+}
+
+
 .advantages-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .advantages-list-text {
