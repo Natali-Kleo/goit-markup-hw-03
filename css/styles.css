@@ -43,7 +43,8 @@ header {
 
 .container {
     width: 1158px;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -123,11 +124,12 @@ header {
 /* List of solutions */
 .business {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .business-container {
     width: 1440px;
-    padding: 188px 0;
     margin-right: auto;
 }
 
@@ -138,7 +140,7 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
+    max-width: 496px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 48px;
