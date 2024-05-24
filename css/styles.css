@@ -277,6 +277,7 @@ header {
 /* Portfolio */
 .portfolio {
     background: #fff;
+    padding: 120px 0;
 }
 
 .portfolio-titel {
@@ -287,10 +288,25 @@ header {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .portfolio-list-item {
     background-color: #fff;
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-img {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-list-titel {
@@ -299,9 +315,11 @@ header {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-list-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -311,6 +329,7 @@ header {
 /* Footer section */
 .section-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .main-icon {
@@ -321,6 +340,8 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .icon-item {
@@ -332,4 +353,6 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    font-weight: 400;
+    max-width: 264px;
 }
